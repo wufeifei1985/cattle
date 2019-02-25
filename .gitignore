@@ -1,47 +1,39 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+#eclipse
+*/.settings/
+*/.project
+*/.classpath
+.settings
+.project
+.classpath
+.springBeans
+.tern-project
+.metadata
+#idea
+*/.idea/
+.idea/
+*.iml
+*.ipr
+*.iws
+Servers/
+#maven ignore
+target/
+*/target/
+*/classes/
+*.class
 
-# Folder config file
-Desktop.ini
+#package file
+*.war
+*.ear
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+#temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+#system ignore
 .DS_Store
-.AppleDouble
-.LSOverride
+Thumbs.db
+*/bin/
 
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
